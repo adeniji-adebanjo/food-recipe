@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-items a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(32, 24, 24);
+  text-decoration: none;
+}

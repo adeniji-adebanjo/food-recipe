@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: border-box;
+}
+.head {
+  /* background-color: #fff; */
+  background: #f6efe1;
+}
