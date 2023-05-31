@@ -4,14 +4,18 @@ import Explore from "./pages/Explore";
 import Event from "./pages/Event";
 import Videos from "./pages/Videos";
 import Community from "./pages/Community";
+import MealPlanner from "./components/meal-planner/MealPlanner";
+import Trending from "./components/trending/Trending";
 
 const App = () => {
   return (
     <>
-      {/* <Explore /> */}
+      <Explore />
+      <MealPlanner />
+      <Trending />
 
       {/* links to pages */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Explore />}>
             <Route index element={<Event />} />
@@ -19,7 +23,7 @@ const App = () => {
             <Route index element={<Videos />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 };

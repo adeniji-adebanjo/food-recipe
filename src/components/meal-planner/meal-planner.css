@@ -1,0 +1,16 @@
+.meal-planner {
+  background: #a98165;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.meal-text,
+.meal-icon {
+  margin: 20px;
+  font-size: 30px;
+  color: #ffff;
+}
+.meal-icon {
+  font-size: 80px !important;
+}

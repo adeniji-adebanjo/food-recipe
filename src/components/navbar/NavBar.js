@@ -21,13 +21,13 @@ const NavBar = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="menu-items">
-            <Link to="/events">Events</Link>
+            {/* <Link to="/events">Events</Link>
             <Link to="/community">Community</Link>
-            <Link to="/videos">Videos</Link>
-            {/* <a href="/">Explore</a>
+            <Link to="/videos">Videos</Link> */}
+            <a href="/">Explore</a>
             <a href="/">Events</a>
             <a href="/">Community</a>
-            <a href="/">Videos</a> */}
+            <a href="/">Videos</a>
           </div>
 
           <Buttons text="Download" onClick={handleDownload} />
